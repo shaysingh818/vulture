@@ -1,0 +1,15 @@
+
+/**
+    Client model
+
+
+    //ID INT PRIMARY KEY  NOT NULL,
+*/
+
+CREATE TABLE CLIENT(
+    OS_USERNAME TEXT, 
+    SOCKET_PORT INT,
+    IP_ADDRESS CHAR(50) UNIQUE
+); 
+    
+    
